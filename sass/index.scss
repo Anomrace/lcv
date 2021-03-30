@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-image: url("/img/Kandinsky.jpg");
+    background-size: cover;
+
+}
+
+.nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    margin-left: 1em;
+    cursor: pointer;
+    z-index: 999;
+    
+}
+
+.nav-toggle-label span, 
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+    content: '';
+    position: absolute;
+}
+.nav-toggle-label span::before{
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after{
+    top: 7px;
+}
+
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1,0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    z-index: 900;
+    overflow: hidden;
+    
+    ul{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    li {
+        margin-bottom: 1em;
+        
+        font-size: 2rem;
+        text-align: center;
+        a {
+            font-family: 'Open Sans';
+            color: white;
+            opacity: 0;
+            transition: opacity 150ms ease-in-out ;
+        }
+        a:hover{
+            color: red;
+
+        }
+        text-transform: uppercase;
+    }
+}
+
+.nav-toggle:checked ~ nav{
+transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a{
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+.titres {
+    font-family: 'Open Sans';
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        padding-left: 2rem;
+    }
+    h2{
+        font-size: 1rem;
+        font-weight: 200;
+        padding-left: 2rem;
+    }
+
+}

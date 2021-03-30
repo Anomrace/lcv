@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="person.svg"
+   inkscape:export-filename="C:\Users\matthias\Documents\dev\django\lcv_website\work\person.png"
+   inkscape:export-xdpi="149.86"
+   inkscape:export-ydpi="149.86">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.61023407"
+     inkscape:cx="394.84111"
+     inkscape:cy="512.72964"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1147"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="color:#000000;overflow:visible;fill:#ffffff;stroke:#666666;stroke-width:1.32292;stroke-linecap:round"
+       id="rect837"
+       width="58.677078"
+       height="78.677078"
+       x="24.754261"
+       y="24.331512" />
+    <circle
+       style="color:#000000;overflow:visible;fill:#666666;stroke-width:1.32292;stroke-linecap:round"
+       id="path833"
+       cx="54.0928"
+       cy="42.245525"
+       r="14.102914" />
+    <path
+       style="color:#000000;overflow:visible;fill:#666666;stroke-width:1.32292;stroke-linecap:round"
+       id="path835"
+       sodipodi:type="arc"
+       sodipodi:cx="-54.0928"
+       sodipodi:cy="-98.461815"
+       sodipodi:rx="21.714941"
+       sodipodi:ry="39.492699"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       sodipodi:arc-type="slice"
+       transform="scale(-1)"
+       d="m -32.377859,-98.461815 a 21.714941,39.492699 0 0 1 -10.857471,34.201681 21.714941,39.492699 0 0 1 -21.714941,-1e-6 21.714941,39.492699 0 0 1 -10.85747,-34.20168 H -54.0928 Z" />
+  </g>
+</svg>
